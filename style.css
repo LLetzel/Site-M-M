@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+.head{ 
+    background-color:#FFF;
+    height: 100px;
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    border-bottom: solid rgb(90, 21, 19) 8px;
+}
+
+#HM{
+    font-size: large;
+    font-family:  'Inter', sans-serif;
+    color: rgb(90, 21, 19);
+}
+
+#CTT{
+    font-size: large;
+    font-family:  'Inter', sans-serif;
+    color: rgb(90, 21, 19);
+    margin-left: 21%;
+}
+
+#PDT{
+    font-size: large;
+    font-family:  'Inter', Bree Serif;
+    color: rgb(90, 21, 19);
+    margin-left: 30%;
+}
+
+.corpo{
+    background-color: #ffd43f;
+    height: 87vb;
+    width: 100%;
+}
+.pesquisa{
+    display: flex;
+    align-items: center;
+    margin-left: 50%;
+
+}
+
+.pesquisa input{
+    border-radius: 15px;
+    width: 200px;
+    background-color: #c8c8c8;
+    
+}
+
+#lupa{
+    background: url("./lupa.png") no-repeat right / 1.3em;
+    padding-left: 1.2em;
+    background-color: #c8c8c8;
+}
+
+.nacionalidade{
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+}
+
+.carrinhoDeCompras{
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+}
+.carrinhoDeCompras{
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+}
+
+.user{
+    display: flex;
+    margin-left: 35px;
+    align-items: center;
+}
+
+.logo{
+    position: absolute;
+    right: 41%;
+    top: 5%;
+}
+
+.barradireita{
+        position: absolute;
+        right: 0%;
+        bottom: -0.5%;
+}
+.barraesquerda{
+        position: absolute;
+        left: 0%;
+        bottom: -0.5%;
+}
+
+.imghome{
+    position: absolute;
+    top: 40%;
+    left: 28%;
+}
+
