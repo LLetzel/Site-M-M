@@ -35,7 +35,7 @@
     width: 135px;
 }
 
-.corpo, .corpoContato{
+.corpo, .corpoContato, body{
     background-color: #ffd43f;
     height: 87vb;
     width: 100%;
@@ -239,4 +239,72 @@ textarea  {
     color: #000000;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+/* css - telalogin */
+
+.corpo12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffd43f;
+}
+
+form {
+    width: 350px;
+    padding: 70px;
+    background-color: #ffe175;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+    margin-bottom: 2rem;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.4rem 0.75rem;
+    font-size: 0.75rem; 
+    line-height: 1.5; 
+    /* color: #495057; */
+    /* background-color: #fff; */
+    /* background-clip: padding-box; */
+    border: 2px solid #000000;
+    /* border-radius: 0.25rem; */
+    /* transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; */
+}
+
+.form-text {
+    margin-top: 0,23rem;
+    font-size: 0.8em;
+    color: #000000;
+}
+
+.btn-primary {
+    color: #000000;
+    background-color: #ffdf4f;
+    border-color: #ffa600;
+}
+
+.btn-primary:hover {
+    color: #000000;
+    background-color: #ffa600;
+    border-color: #ffdf4f;
+}
+
+.logologin {
+    background-color:#ffe175;
+    display: block;
+    margin: 0 auto;
+}
+
+.lembreme{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+}
+
 
